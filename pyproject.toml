@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "my-ai"
+version = "0.1.0"
+description = ""
+authors = ["Benny Christanto <benny.christanto@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+openai = "^1.34.0"
+google-cloud-vision = "^3.7.2"
+elasticsearch = "^8.14.0"
+soundfile = "^0.12.1"
+pydub = "^0.25.1"
+gradio = "^4.36.1"
+django-environ = "^0.11.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
